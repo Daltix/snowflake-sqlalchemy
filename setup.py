@@ -34,7 +34,7 @@ setup(
 
     install_requires = [
         'sqlalchemy<2.0.0',
-        'snowflake-connector-python',
+        'snowflake-connector-python @ https://github.com/Daltix/snowflake-connector-python/archive/master.zip'
     ],
     namespace_packages=[
         'snowflake'
